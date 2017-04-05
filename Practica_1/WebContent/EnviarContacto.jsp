@@ -4,7 +4,7 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-<title>Error</title>
+<title>Contacto Enviado</title>
 <style type="text/css">
 #caja{
 	
@@ -20,9 +20,8 @@
 </head>
 <body style="background-color:#72959C;">
 	<div id="caja">
-		<h1> Error! :D </h1>
-		<h2><span>[${codigo}]</span><span>${descripcion}</span></h2>
-		<a href='index.jsp'>Volver</a>
+	<legend><b>Contacto Enviado</b></legend>
+	<p>Su mensaje se ha enviado correctamente. Gracias</p>
 </div>
 </body>
 </html>

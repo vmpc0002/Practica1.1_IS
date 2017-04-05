@@ -7,6 +7,10 @@ public class Usuario {
 	private String email;
 	private String pass;
 	private String nombre;
+	private String mail;
+	private String telefono;
+	private String codigopostal;
+	
 	private ArrayList<Error> errors;
 	//Este constructor lo vamos a utilizar para validar
 	public Usuario(String email, String pass) {
@@ -24,6 +28,38 @@ public class Usuario {
 		this.nombre = nombre;
 		errors= new ArrayList<Error>();
 	}
+	public Usuario(String nombre, String mail, String telefono, String codigopostal) {
+		super();
+		this.nombre = nombre;
+		this.mail = mail;
+		this.telefono = telefono;
+		this.codigopostal=codigopostal;
+		errors= new ArrayList<Error>();
+	}
+	public String getMail() {
+		return mail;
+	}
+
+	public void setMail(String mail) {
+		this.mail = mail;
+	}
+
+	public String getTelefono() {
+		return telefono;
+	}
+
+	public void setTelefono(String telefono) {
+		this.telefono = telefono;
+	}
+
+	public String getCodigopostal() {
+		return codigopostal;
+	}
+
+	public void setCodigopostal(String codigopostal) {
+		this.codigopostal = codigopostal;
+	}
+
 
 	public String getNombre() {
 		return nombre;
