@@ -23,7 +23,7 @@
     }
   </style>
 </head>
-<body style="background-color:#72959C;">
+<body style="background-color:#FFFFFF;">
 
 <nav class="navbar navbar-inverse">
   <div class="container-fluid">
@@ -222,6 +222,7 @@
 
 <footer class="container-fluid text-center">
   <p>Gracias por confiar en <b>CONECTATELECO</b></p>
+  <h2><a href='cerrar.do'>Cerrar sesion</a></h2>
 </footer>
 
 </body>

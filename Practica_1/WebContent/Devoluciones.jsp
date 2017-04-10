@@ -4,12 +4,13 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-<title>CONTACTO</title>
+<LINK REL="stylesheet" TYPE="text/css" HREF="css/bootstrap.min.css"/>
+<title> Devoluciones</title>
 <style type="text/css">
 #caja{
 	
 	background:#1CB1B3;
-	width:350px;
+	width:750px;
 	border:1px solid white;
 	margin: 100px auto;
 	padding: 1em;
@@ -18,13 +19,13 @@
 
 </style>
 </head>
-<body style="background-color:#72959C;">
+<body background="https://fotos.subefotos.com/b2122af48e98bbb3923030349a0514d8o.png">
 <div id="caja">
-<div class="container-fluid bg-grey">
-  <h2 class="text-center">CONTACTO</h2>
+		<h1 align="center"><img src="https://fotos.subefotos.com/9e555ea03a26b90c8190f2c18ab833eeo.png" width="652" height="308"></h1>
+		
   <div class="row">
     <div class="col-sm-5">
-      <p>Contacta con nosotros las 24 horas del dia</p>
+      
       <p><span class="glyphicon glyphicon-map-marker"></span> Linares, España</p>
       <p><span class="glyphicon glyphicon-phone"></span> +34 1515151515</p>
       <p><span class="glyphicon glyphicon-envelope"></span> telematica@red.ujaen.es</p> 
@@ -43,19 +44,14 @@
       <textarea class="form-control" id="comments" name="comments" placeholder="Comentario" rows="5"></textarea><br>
       <div class="row">
         <div class="col-sm-12 form-group">
-          	<th><button class="btn btn-default pull-right"  type="submit">Enviar</button></th>
+          	<h1 align="center"><button class="btn btn-default pull-right"  type="submit">Enviar</button></h1>
          </div>
       </div> 
    
     </form>
-    
-    <form action="validarmenu.do">
-       	<td><h2><button class="btn btn-default pull-right"  type="submit">Cancelar</button></h2></td>
-    </form>
-    
-  </div>
-</div>
-</div>
-
+    	
+		<h2 align="center"><a href='validarmenu.do'><font color="#000000">Atras</font></a></h2>
+	</div> 
+	</div>
 </body>
 </html>

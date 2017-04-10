@@ -51,6 +51,9 @@
         <li class="active"><a href="#">Inicio</a></li>
         <li><a href="productos.do">Productos</a></li>
         <li><a href="contacto.do">Contacto</a></li>
+        <li><a href="faq.do">Preguntas Frecuentes</a></li>
+        <li><a href="quienessomos.do">Quienes Somos</a></li>
+        <li><a href="devoluciones.do">Devoluciones</a></li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
         <li><a href="registrarse.do"><span class="glyphicon glyphicon-log-in"></span> Identificate</a></li>

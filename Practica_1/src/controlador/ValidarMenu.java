@@ -27,18 +27,18 @@ public class ValidarMenu extends HttpServlet {
     
 	
 	protected void EnviarDatos(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-		String nombre,mail, telefono,codigopostal;
+		String nombre,mail, telefono,codigopostal,contraseña;
 		
 		nombre=request.getParameter("txtNombre");
+		contraseña=request.getParameter("txtContrase");
 		mail=request.getParameter("txtCorreo");
 		telefono=request.getParameter("txtTelefono");
 		codigopostal=request.getParameter("txtCodigopostal");
-		Usuario u = new Usuario(nombre,mail,telefono,codigopostal);
+		Usuario u = new Usuario(nombre,contraseña,mail,telefono,codigopostal);
 		
 		HttpSession session= request.getSession(true);
 		session.setAttribute("Usuario", u);
 		
-		//Esto va aqui?????????????
 		String[] nombres;
 		nombres= new String[]{"Intel i7-6700K 4.0Ghz Box","Kingston SSDNow 120GB","Asus H81M-P PLUS","GeForce GTX 1080 XDDR5",
 				"NOX Coolbay SX USB 3.0","Intel i5-6600K 3.5Ghz","MSI Z270 Gaming Pro","EVGA GeForce GTX 1070"};

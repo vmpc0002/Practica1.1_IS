@@ -225,4 +225,34 @@
     <servlet-name>VerCarrito</servlet-name>
     <url-pattern>/vercarrito.do</url-pattern>
   </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>PreguntasFrecuentes</display-name>
+    <servlet-name>PreguntasFrecuentes</servlet-name>
+    <servlet-class>controlador.PreguntasFrecuentes</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>PreguntasFrecuentes</servlet-name>
+    <url-pattern>/faq.do</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>QuienesSomos</display-name>
+    <servlet-name>QuienesSomos</servlet-name>
+    <servlet-class>controlador.QuienesSomos</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>QuienesSomos</servlet-name>
+    <url-pattern>/quienessomos.do</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>Devoluciones</display-name>
+    <servlet-name>Devoluciones</servlet-name>
+    <servlet-class>controlador.Devoluciones</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Devoluciones</servlet-name>
+    <url-pattern>/devoluciones.do</url-pattern>
+  </servlet-mapping>
 </web-app>

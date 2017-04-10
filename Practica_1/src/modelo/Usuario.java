@@ -10,6 +10,7 @@ public class Usuario {
 	private String mail;
 	private String telefono;
 	private String codigopostal;
+	private String contraseña;
 	
 	private ArrayList<Error> errors;
 	//Este constructor lo vamos a utilizar para validar
@@ -28,16 +29,25 @@ public class Usuario {
 		this.nombre = nombre;
 		errors= new ArrayList<Error>();
 	}
-	public Usuario(String nombre, String mail, String telefono, String codigopostal) {
+	public Usuario(String nombre,String contraseña, String mail, String telefono, String codigopostal) {
 		super();
 		this.nombre = nombre;
 		this.mail = mail;
 		this.telefono = telefono;
 		this.codigopostal=codigopostal;
+		this.contraseña=contraseña;
 		errors= new ArrayList<Error>();
 	}
 	public String getMail() {
 		return mail;
+	}
+
+	public String getContraseña() {
+		return contraseña;
+	}
+
+	public void setContraseña(String contraseña) {
+		this.contraseña = contraseña;
 	}
 
 	public void setMail(String mail) {

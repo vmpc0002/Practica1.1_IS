@@ -27,6 +27,9 @@
 					  Nombre:<br>
 					  <input type="text"  value="David" name="txtNombre"  required>
 					  <br>
+					  Contraseña:<br>
+					  <input type="password"  value="111" name="txtContrase"  required>
+					  <br>
 					  Email:<br>
 					  <input type="email" value="david_2@gmail.com"name="txtCorreo" required>
 					  <br>
